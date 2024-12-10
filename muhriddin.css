@@ -82,7 +82,8 @@ nav .nav-register .sign-up:hover {
 .other-sites {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    justify-content: center;
+    gap: 30px;
 }
 .other-sites__title {
     color: #fff;
@@ -93,13 +94,13 @@ nav .nav-register .sign-up:hover {
 }
 
 .other-sites .site-item {
+    padding: 5px 5px 5px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     width: 250px;
     height: 80px;
     background-color: #fff;
-    margin: 10px;
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
@@ -116,6 +117,33 @@ nav .nav-register .sign-up:hover {
 .site-item__img-box img {
     width: 35px;
 }
+
+.site-item__text {
+    padding-left: 20px;
+}
+
+.site-item__text a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #574abb;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.site-item__text a:hover {
+    color: rgb(240, 46, 169);
+}
+
+.site-item__text .mirjamol {
+    font-size: 14px !important;
+}
+
+.site-item__text p {
+    font-size: 17px;
+    color: rgb(95, 89, 89);
+}
+
+
 /* End of Home-page section style */
 
 
