@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+.contenr1{
+    width: 1200px;
+    height: 3899px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.contenr{
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid rgb(103, 103, 103); */
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
