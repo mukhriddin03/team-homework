@@ -144,8 +144,105 @@ nav .nav-register .sign-up:hover {
 }
 
 
-/* End of Home-page section style */
+/* Membership section */
+
+.membership {
+    padding: 150px 0;
+}
+.membership-content {
+    display: flex;
+    padding: 20px;
+}
+
+.membership-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.membership-cards .membership-card {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 
+.membership-card .logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
+.membership-card .logo-box i {
+    font-size: 26px;
+}
+
+.membership-card .logo-box-desktop {
+    background-color: #FAF0E4;
+    color: #E76161;
+}
+
+.membership-card .logo-box-message {
+    background-color: #85CDFD;
+    color: #074799;
+}
+
+.membership-card .logo-box-file {
+    background-color: #FFF8DB;
+    color: orange;
+}
+
+.membership-card .logo-box-label {
+    background-color: #BDE8CA;
+    color: #009990;
+}
+.membership-right__elements {
+    margin: 20px;
+}
+
+.membership-right__elements span {
+    color: #E76161;
+    font-family: Roboto;
+}
+
+.membership-right__elements .title {
+    font-family: Roboto;
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.membership-right__elements .subtitle {
+    font-family: Roboto;
+    padding: 10px 0;
+}
+
+.membership-right__elements button {
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #E76161;
+}
+
+.membership-card .text-box {
+    padding-left: 20px;
+}
+
+.membership-card .text-box h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #31363F;
+}
+
+.membership-card .text-box p {
+    font-family: Roboto;
+    color: #9AA6B2;
+}
 
