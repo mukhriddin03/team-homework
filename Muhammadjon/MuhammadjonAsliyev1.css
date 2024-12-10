@@ -182,7 +182,7 @@ main {
     cursor: pointer;
 }
 
-.bx-play-circle:hover{
+.bx-play-circle:hover {
     transform: rotate(180deg);
 }
 
@@ -193,7 +193,7 @@ main {
     cursor: pointer;
 }
 
-.home_left_container_third_text p:hover{
+.home_left_container_third_text p:hover {
     color: black;
 }
 
@@ -202,7 +202,8 @@ main {
     height: 100%;
     position: relative;
 }
-.back_img{
+
+.back_img {
     width: 400px;
     height: 400px;
     background-color: orange;
@@ -210,7 +211,7 @@ main {
     z-index: 0;
 }
 
-.img{
+.img {
     position: absolute;
     width: 70%;
     height: 100%;
@@ -218,7 +219,7 @@ main {
     z-index: 1;
 }
 
-.servise{
+.servise {
     margin-top: 130px;
     width: 100%;
     height: 600px;
@@ -226,7 +227,7 @@ main {
     color: blue;
 }
 
-.servise_head{
+.servise_head {
     width: 100%;
     height: auto;
     text-align: center;
@@ -235,20 +236,20 @@ main {
     padding: 20px;
 }
 
-.servise_head p{
+.servise_head p {
     font-size: 20px;
     font-weight: 700;
 }
 
-.servise_head h1{
+.servise_head h1 {
     font-size: 40px;
 }
 
-.servise_head_p{
+.servise_head_p {
     color: gray;
 }
 
-.servise_main{
+.servise_main {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
@@ -257,7 +258,7 @@ main {
     padding: 50px 0px;
 }
 
-.servise_main_cards{
+.servise_main_cards {
     width: 300px;
     height: 300px;
     display: flex;
@@ -271,11 +272,13 @@ main {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.servise_main_cards:hover{
+.servise_main_cards:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.bxs-microphone, .bx-envelope, .bx-clipboard{
+.bxs-microphone,
+.bx-envelope,
+.bx-clipboard {
     width: 50px;
     height: 50px;
     border-radius: 10px;
@@ -285,30 +288,30 @@ main {
     font-size: 30px;
 }
 
-.bx-envelope{
+.bx-envelope {
     background-color: blue;
 }
 
-.bx-clipboard{
+.bx-clipboard {
     background-color: orange;
 }
 
-.servise_main_cards h1{
+.servise_main_cards h1 {
     font-size: 35px
 }
 
-.servise_main_cards p{
+.servise_main_cards p {
     color: gray;
 }
 
-.about_us{
+.about_us,
+.our_solustion {
     margin-top: 150px;
     width: 100%;
     height: 500px;
-    justify-content: space-between;
 }
 
-.about_us_container_left{
+.about_us_container_left, .our_solustion_contanier_left {
     width: 50%;
     height: 100%;
     display: flex;
@@ -316,13 +319,15 @@ main {
     justify-content: center;
 }
 
-.about_us_container_left img{
+.about_us_container_left img, .our_solustion_contanier_left img {
     width: 70%;
     height: 80%;
     border-radius: 10px;
     object-fit: cover
 }
-.about_us_container_right{
+
+.about_us_container_right,
+.our_solustion_container_right {
     width: 50%;
     height: 100%;
     justify-content: center;
@@ -332,17 +337,20 @@ main {
     color: blue;
 }
 
-.about_us_container_right h1{
+.about_us_container_right h1,
+.our_solustion_container_right h1 {
     font-size: 40px;
     color: darkblue;
 }
 
-.about_us_container_right p{
+.about_us_container_right p,
+.our_solustion_container_right p {
     color: gray;
     font-size: 18px;
 }
 
-.about_us_container_right_btn{
+.about_us_container_right_btn,
+.our_solustion_container_right_btn {
     width: 200px;
     height: 60px;
     background-color: blue;
@@ -353,8 +361,61 @@ main {
     transition: 0.3s ease;
 }
 
-.about_us_container_right_btn:hover{
+.about_us_container_right_btn:hover,
+.our_solustion_container_right_btn:hover {
     background-color: white;
     color: blue;
     border: 1px solid blue;
+}
+
+.our_solustion{
+    margin-top: 50px;
+}
+
+.nightF{
+    width: 85%;
+    height: 100%;
+}
+
+.about_level_cards{
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.about_level_cards_protsent{
+    width: 220px;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.about_level_cards_protsent:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about_level_cards_protsent:nth-child(2){
+    background-color: red;
+}
+
+.about_level_cards_protsent:nth-child(3){
+    background-color: blue;
+}
+
+.about_level_cards_protsent:nth-child(4){
+    background-color: darkviolet;
+}
+
+
+.about_level_cards_protsent h1{
+    font-size: 40px;
 }
