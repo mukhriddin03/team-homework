@@ -144,8 +144,212 @@ nav .nav-register .sign-up:hover {
 }
 
 
-/* End of Home-page section style */
+/* Membership section */
+
+.membership {
+    padding: 150px 0;
+}
+.membership-content {
+    display: flex;
+    padding: 20px;
+}
+
+.membership-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.membership-cards .membership-card {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.membership-card .logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.membership-card .logo-box i {
+    font-size: 26px;
+}
+
+.membership-card .logo-box-desktop {
+    background-color: #FAF0E4;
+    color: #E76161;
+}
+
+.membership-card .logo-box-message {
+    background-color: #85CDFD;
+    color: #074799;
+}
+
+.membership-card .logo-box-file {
+    background-color: #FFF8DB;
+    color: orange;
+}
+
+.membership-card .logo-box-label {
+    background-color: #BDE8CA;
+    color: #009990;
+}
+.membership-right__elements {
+    margin: 20px;
+}
+
+.membership-right__elements span {
+    color: #E76161;
+    font-family: Roboto;
+}
+
+.membership-right__elements .title {
+    font-family: Roboto;
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.membership-right__elements .subtitle {
+    font-family: Roboto;
+    padding: 10px 0;
+}
+
+.membership-right__elements button {
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #E76161;
+}
+
+.membership-card .text-box {
+    padding-left: 20px;
+}
+
+.membership-card .text-box h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #31363F;
+}
+
+.membership-card .text-box p {
+    font-family: Roboto;
+    color: #9AA6B2;
+}
 
 
 
 
+
+
+.browse-text {
+    color: #ff7b7b;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.categories .title {
+    color: #2d2d2d;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.categories .subtitle {
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.sectors {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.sector-card {
+    flex: 1;
+    padding: 2rem;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.sector-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-icon { background-color: #ffeded; }
+.development-icon { background-color: #f0f0ff; }
+.marketing-icon { background-color: #fff6e9; }
+.videography-icon { background-color: #e9fff1; }
+
+.sector-title {
+    color: #2d2d2d;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-count {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.nav-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #eee;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.prev { left: -20px; }
+.next { right: -20px; }
+
+.categories .browse-all {
+    background-color: #ff7b7b;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 490px;
+    margin-bottom: 100px;
+}
+
+.browse-all:hover {
+    background-color: #ff6b6b;
+}
