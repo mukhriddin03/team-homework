@@ -203,6 +203,13 @@ main {
     position: relative;
 }
 
+.back_white_img_11 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
 .back_img {
     width: 400px;
     height: 400px;
@@ -212,11 +219,13 @@ main {
 }
 
 .img {
+    margin-top: -50px;
     position: absolute;
-    width: 70%;
+    width: 100%;
     height: 100%;
     border-radius: 50%;
     z-index: 1;
+    object-fit: contain;
 }
 
 .servise,
@@ -561,7 +570,7 @@ main {
 }
 
 .from_card {
-    padding: 20px   ;
+    padding: 20px;
     width: 350px;
     height: 400px;
     background: white;
@@ -602,6 +611,75 @@ main {
 
 .from_our_blog_btn {
     height: 200px;
+}
+
+.happy_clinet {
+    width: 90%;
+    flex-direction: column;
+}
+
+.happy_clinet_main {
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+.testimonial-card {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.testimonial-card:hover{
+    cursor: pointer;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.testimonial-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.testimonial-header span {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.testimonial-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.testimonial-icon {
+    color: #1DA1F2;
+    margin-left: auto;
+    font-size: 20px;
 }
 
 /* ml? */
