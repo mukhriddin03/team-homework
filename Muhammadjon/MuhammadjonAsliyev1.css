@@ -280,6 +280,8 @@ main {
 }
 
 .servise_main_cards:hover {
+    cursor: pointer;
+    margin-top: -50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -410,6 +412,7 @@ main {
 }
 
 .about_level_cards_protsent:hover {
+    margin-top: -50px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -458,6 +461,7 @@ main {
 }
 
 .pricing-card:hover {
+    margin-top: -50px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
@@ -532,6 +536,72 @@ main {
 
 .pricing-card .purchase-btn:hover {
     background-color: #003ec5;
+}
+
+.from_our_blog {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.pricing_plan_head {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    justify-content: space-between;
+}
+
+.from_our_blog_main {
+    width: 90%;
+    height: auto;
+    padding: 50px 20px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.from_card {
+    padding: 20px   ;
+    width: 350px;
+    height: 400px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.from_card:hover {
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.from_card img {
+    width: 100%;
+    height: auto;
+}
+
+.from_card-content {
+    padding: 16px;
+}
+
+.from_card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: #222;
+}
+
+.from_card-text {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.from_our_blog_btn {
+    height: 200px;
 }
 
 /* ml? */
