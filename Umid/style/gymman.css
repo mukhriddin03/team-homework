@@ -1,0 +1,66 @@
+.gymmans{
+    width: 100%;
+}
+
+.gymman{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+}
+
+.gymman-img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.gymman-img-child1{
+    position: absolute;
+}
+
+.gymman-img-child{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    clip-path: polygon(92% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+
+
+.gymman-styl{
+    width: 120px;
+    height: 150px;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+.gymman-style-box{
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(92% 0, 100% 0, 100% 100%, 0% 100%);
+    position: absolute;
+}
+
+.gym-style-box1{
+    background-color: rgb(255, 153, 0);
+    border-radius: 0 8px 0;
+}
+
+.gym-style-box2{
+    background-color: rgb(112, 212, 112);
+    border-radius: 0 8px 0;
+}
+
+.gymman-style-title{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

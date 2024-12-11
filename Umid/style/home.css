@@ -1,0 +1,60 @@
+.homes{
+    width: 100%;
+}
+
+.home{
+    text-align: center;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding: 50px;
+    font-size: 30px;
+    color: rgb(125, 125, 125);
+}
+
+.home h1{
+    color: white;
+}
+
+.home-button{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Doira shaklini yaratadi */
+    position: absolute; /* Sahifadagi boshqa elementlarga tasir qilmasligi uchun absolute qo'llaniladi */
+    pointer-events: none; /* Divni interaktiv qilmaslik uchun */
+    bottom: 100px;
+    padding: 15px;
+}
+
+.circles1{
+    right: 0;
+    background-color: rgb(255, 153, 0);
+}
+
+.circles2{
+    left: 0;
+    background-color: lightgreen;
+
+}
+
+.circles3{
+    left: 120px;
+    top: 280px;
+    background-color: rgb(255, 153, 0);
+}
+
+.circles4{
+    right: 120px;
+    top: 280px;
+    background-color: lightgreen;
+}
