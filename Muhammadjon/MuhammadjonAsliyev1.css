@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(229, 252, 244);
+    background-color: rgb(242, 252, 248);
 }
 
 .display_flex {
@@ -627,7 +627,6 @@ main {
     padding: 50px;
 }
 
-
 .testimonial-card {
     width: 350px;
     background-color: #ffffff;
@@ -681,5 +680,78 @@ main {
     margin-left: auto;
     font-size: 20px;
 }
+
+.email_go{
+    width: 90%;
+    height: 400px;
+    background-color: lightblue;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.email_go h1{
+    font-size: 40px;
+    text-align: center;
+    color: darkblue;
+}
+
+.email_go_input{
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 25px;
+}
+
+.email_go_input button{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.email_go_input button:hover{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.on_input{
+    flex: 1;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bxs-envelope{
+    width: 45px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.bxs-envelope:hover{
+    width: 60px;
+}
+
+/*sdsds*/
 
 /* ml? */
