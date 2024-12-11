@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.home-page {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #453D80;
+}
+
+
+
+/* Start of Header section style */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+header .logo {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+nav a {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+nav a:hover {
+    color: crimson;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+nav .nav-items .nav-item {
+    padding: 20px;
+}
+
+nav .nav-register .log-in {
+    padding: 10px 24px;
+}
+
+nav .nav-register .sign-up {
+    background-color: #fff;
+    color: #453D80;
+    transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);;
+}
+
+nav .nav-register .sign-up:hover {
+    color: crimson;
+}
+
+/* End of Header section style */
+
+
+/* Start of Home-page section style */
+.other-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.other-sites__title {
+    color: #fff;
+    text-align: center;
+    margin: 50px 0;
+    font-family: Playfair;
+    font-size: 26px;
+}
+
+.other-sites .site-item {
+    padding: 5px 5px 5px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.site-item__img-box {
+    width: 60px;
+    height: 60px;
+    background-color: #7794dd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-item__img-box img {
+    width: 35px;
+}
+
+.site-item__text {
+    padding-left: 20px;
+}
+
+.site-item__text a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #574abb;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.site-item__text a:hover {
+    color: rgb(240, 46, 169);
+}
+
+.site-item__text .mirjamol {
+    font-size: 14px !important;
+}
+
+.site-item__text .site-owner {
+    font-size: 17px;
+    color: rgb(95, 89, 89) !important;
+}
+
+
+/* Membership section */
+
+.membership {
+    padding: 150px 0;
+}
+.membership-content {
+    display: flex;
+    padding: 20px;
+}
+
+.membership-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.membership-cards .membership-card {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.membership-card .logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.membership-card .logo-box i {
+    font-size: 26px;
+}
+
+.membership-card .logo-box-desktop {
+    background-color: #FAF0E4;
+    color: #E76161;
+}
+
+.membership-card .logo-box-message {
+    background-color: #85CDFD;
+    color: #074799;
+}
+
+.membership-card .logo-box-file {
+    background-color: #FFF8DB;
+    color: orange;
+}
+
+.membership-card .logo-box-label {
+    background-color: #BDE8CA;
+    color: #009990;
+}
+.membership-right__elements {
+    margin: 20px;
+}
+
+.membership-right__elements span {
+    color: #E76161;
+    font-family: Roboto;
+}
+
+.membership-right__elements .title {
+    font-family: Roboto;
+    font-size: 32px;
+    padding: 10px 0;
+}
+
+.membership-right__elements .subtitle {
+    font-family: Roboto;
+    padding: 10px 0;
+}
+
+.membership-right__elements button {
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #ff7b7b;
+}
+
+.membership-card .text-box {
+    padding-left: 20px;
+}
+
+.membership-card .text-box h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #31363F;
+}
+
+.membership-card .text-box p {
+    font-family: Roboto;
+    color: #9AA6B2;
+}
+
+
+
+
+
+
+.browse-text {
+    color: #ff7b7b;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.categories .title {
+    color: #2d2d2d;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.categories .subtitle {
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.sectors {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.sector-card {
+    flex: 1;
+    padding: 2rem;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.sector-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design-icon { background-color: #ffeded; }
+.development-icon { background-color: #f0f0ff; }
+.marketing-icon { background-color: #fff6e9; }
+.videography-icon { background-color: #e9fff1; }
+
+.sector-title {
+    color: #2d2d2d;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-count {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.nav-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #eee;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.prev { left: -20px; }
+.next { right: -20px; }
+
+.categories .browse-all {
+    background-color: #ff7b7b;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 490px;
+    margin-bottom: 100px;
+}
+
+.browse-all:hover {
+    background-color: #ff6b6b;
+}
+
+
+
+/* Courses section style */
+.courses {
+    padding-bottom: 100px;
+}
+.titles-box {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.titles-box .title-left span {
+    color: #E76161;
+    font-family: Roboto;
+}
+
+.titles-box .title-left h1 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.titles-box .title-left p {
+    font-family: Roboto;
+    width: 300px;
+    line-height: 24px;
+}
+
+.titles-box .browse-all__right {
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #ff7b7b;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 270px;
+}
+
+.course-card img {
+    width: 270px;
+}
+
+.course-card > span {
+    display: block;
+    padding: 5px 0;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.course-card > h1 {
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.card-bottom-info {
+    display: flex;
+    padding: 5px 0;
+}
+
+.card-bottom-info p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-bottom-info .price {
+    color: #E76161;
+}
+
+.card-bottom-info .course-rank {
+    padding-left: 100px;
+}
+
+.card-bottom-info .course-rank i {
+    color: orange;
+}
+
+.card-bottom-info .course-rank i:last-child {
+    color: grey;
+    padding-right: 10px;
+}
+
+.course-teacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.course-teacher .teacher-name {
+    font-family: Roboto;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.course-teacher > span {
+    font-family: Roboto;
+    font-weight: 500;
+    color: gray;
+}
+.course-teacher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* End of Courses section style */
+
+
+
+/* Our-teachers section style */
+
+.our-teachers {
+    padding-bottom: 100px;
+}
+.our-teachers .top-title {
+    text-align: center;
+    font-family: Roboto;
+    text-transform: capitalize;
+    color: #E76161;
+}
+.our-teachers .title {
+    text-align: center;
+    padding: 10px 0;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+.our-teachers .subtitle {
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.teacher-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.teacher-card {
+    display: flex;  
+    margin-bottom: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.teacher-card img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.teacher-card .teacher-info {
+    padding: 20px;
+}
+
+.teacher-info .teacher-name {
+    font-family: Roboto;
+    word-spacing: 7px;
+}
+
+.teacher-info p {
+    font-family: Roboto;
+    padding: 5px 0;
+    width: 250px;
+}
+
+.teacher-info button {
+    padding: 10px 35px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #ff7b7b;
+}
+
+.button-box {
+    text-align: center;
+    margin-top: 70px;
+}
+.button-box button {
+    padding: 10px 40px;
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #ff7b7b;
+}
+
+/* End Our-teachers section style */
+
+
+
+/* Openions section style */
+.openions {
+    padding: 100px 0;
+    background-color: #453D80;
+}
+
+.openion .title-box .title-left h1, p{
+    color: #fff !important;
+}
+.slider-icons i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.student-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-card {
+    width: 270px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 15px 0;
+}
+
+.student-card i {
+    font-size: 32px;
+    color: orange;
+}
+
+.student-card h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+.student-card .student-name {
+    font-weight: 500;
+}
+
+.student-cards .student-card h4 {
+    color: gray;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+/* End openions section style */
+
+
+/* Application section style */
+.application {
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-box {
+    width: 320px;
+    height: 320px;
+    background-color:#E76161;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.left-box .text {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.right-box {
+    width: 320px;
+    height: 320px;
+    padding: 30px;
+}
+
+.right-box h2 {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.right-box input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+}
+
+.right-box .button-btn {
+    width: 130px;
+    padding: 15px;
+    margin-top: 40px;
+    border: none;
+    background-color: #453D80;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    border-radius: 5px;
+}
+/* End Application section style */
+
+
+/* Footer section style */
+.footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+.footer-column ul li a {
+    color: #666;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    color: #333;
+}
+.brand-section {
+    flex: 2;
+    min-width: 300px;
+}
+.brand-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.brand-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: #fff1f0;
+    border-radius: 4px 0 0 4px;
+}
+.newsletter-form button {
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.social-icons a {
+    color: #666;
+    text-decoration: none;
+}
+/* End Footer section style */
+
+

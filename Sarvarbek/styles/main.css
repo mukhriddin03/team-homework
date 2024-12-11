@@ -1,0 +1,209 @@
+.head {
+  background-color: deepskyblue;
+  background: linear-gradient(180deg, #1675e0, #ddd9d9);
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.new-btn {
+  background-color: rgb(164, 224, 43);
+  border-radius: 10px;
+  width: 80px;
+  height: 45px;
+  border: none;
+  margin-right: 10px;
+  color: white;
+  font-size: 30px;
+}
+.left-info {
+  padding-left: 150px;
+}
+.info-top {
+  display: flex;
+}
+
+.first-top {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  font-size: 30px;
+}
+.first-bottom {
+  margin-top: 200px;
+  display: flex;
+  gap: 150px;
+  font-size: 25px;
+}
+.right-info img {
+  margin-top: 60px;
+  width: 700px;
+  height: 750px;
+}
+.icons {
+  height: 600px;
+}
+.icon-title {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.parent {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.icon img {
+  height: 80px;
+}
+.icon2 {
+  padding-top: 250px;
+}
+.icon4 {
+  padding-top: 250px;
+}
+.icon6 {
+  padding-top: 250px;
+}
+.pay {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  padding-top: 60px;
+}
+.pay img {
+  border-radius: 20px;
+  height: 500px;
+}
+.pay-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 30px;
+}
+.customer {
+  padding-top: 120px;
+  display: flex;
+}
+.expreience {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: rgb(221, 221, 221);
+}
+.card-info {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 80px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.telefon img {
+  border-radius: 40px 40px 0 0;
+}
+.form-1 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 140px;
+}
+.form-1-btn {
+  background-color: rgb(225, 228, 233);
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  color: rgb(0, 153, 255);
+  font-size: 18px;
+}
+.form-1 .pay-info {
+  padding-top: 80px;
+}
+.form-2-btn {
+  background-color: rgb(0, 119, 255);
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 18px;
+}
+.part-bottom {
+  background-color: rgb(82, 168, 255);
+  height: 500px;
+  color: white;
+}
+.part-bottom div {
+  padding-top: 100px;
+}
+.bottom-btn {
+  display: flex;
+  justify-content: center;
+}
+.bottom-btn button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  color: dodgerblue;
+  font-size: 18px;
+}
+.bottom-end {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 50px;
+  background-color: lightgray;
+}
+.uzun-telefon img {
+  border-radius: 45px 45px 0 0;
+}
+.content {
+  padding-top: 50px;
+  display: flex;
+  gap: 60px;
+}
+.child img {
+  width: 35px;
+}
+.child2 {
+  padding-top: 90px;
+}
+.child4 {
+  padding-top: 100px;
+}
+.child6 {
+  padding-top: 110px;
+}
+.first-bottom-info {
+  font-size: 30px;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.blue-text {
+  color: dodgerblue;
+}
+.list-text {
+  padding-top: 20px;
+}
+.list.pd {
+  padding-top: 20px;
+}
