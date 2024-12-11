@@ -138,9 +138,9 @@ nav .nav-register .sign-up:hover {
     font-size: 14px !important;
 }
 
-.site-item__text p {
+.site-item__text .site-owner {
     font-size: 17px;
-    color: rgb(95, 89, 89);
+    color: rgb(95, 89, 89) !important;
 }
 
 
@@ -673,4 +673,84 @@ nav .nav-register .sign-up:hover {
     border-radius: 5px;
 }
 /* End Application section style */
+
+
+/* Footer section style */
+.footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+.footer-column ul li a {
+    color: #666;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    color: #333;
+}
+.brand-section {
+    flex: 2;
+    min-width: 300px;
+}
+.brand-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.brand-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    background-color: #fff1f0;
+    border-radius: 4px 0 0 4px;
+}
+.newsletter-form button {
+    padding: 10px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.social-icons a {
+    color: #666;
+    text-decoration: none;
+}
+/* End Footer section style */
+
 
