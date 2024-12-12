@@ -5,8 +5,15 @@
 }
 
 body{
-    background-color: #000A34;
+    background-color: rgb(12,5,71);
 
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 300px;
+        
 }
 
 
@@ -25,9 +32,14 @@ body{
 .navbar-link{
     text-decoration: none;
     color: white;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 25px;
+    transition-duration: 0.8s;
 
+}
+
+.navbar-link:hover{
+color: yellow;
 }
 
 .navbar .logo{
@@ -39,16 +51,23 @@ body{
 
 .logo h1{
     color: white;
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .logo button{
-    width: 110px;
-    border-radius: 30px;
+    width: 150px;
+    border-radius: 50px;
     border: 2px solid white;
     height: 50px;
     background: transparent;
+    font-size: 18px;
     color: white;
+    transition-duration: 1s;
+}
+
+.logo button:hover{
+    background-color: rgb(81, 90, 219);
+    border: none;
 }
 
 .stronger{
@@ -58,8 +77,8 @@ body{
 }
 
 .bank-card img{
-    width: 400px;
-    height: 400;
+    width: 500px;
+    height: 350px;
     border-radius: 10px;
     background-size: cover;
 }
@@ -78,32 +97,90 @@ body{
     margin-top: 25px;
     width: 400px;
     line-height: 23px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 
 .buttons{
-    margin-top: 25px;
+    margin-top: 35px;
+    display: flex;
+    gap: 45px;
 
 }
 
-.buttons .btn1{
-    margin: 45px;
-    width: 130px;
-    height: 40px;
-    border-radius: 20px;    
-    color: white;
-    background-color: blue;
-    border: none;
-}
+.buttons .btn1{ 
+      align-items: center;
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: Phantomsans, sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      padding: 19px 24px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .button-63:active,
+    .button-63:hover {
+      outline: 0;
+    }
+    
+    @media (min-width: 768px) {
+      .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+      }
+    }
+
 
 .buttons .btn2{
-    width: 130px;
-    height: 40px;
-    background: transparent;
-    border: none;
-    color: white;
-}
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
 
 .creats{
     margin-top: 200px;
@@ -114,7 +191,12 @@ body{
 .creat-card h3{
    color: white;
    margin-top: 15px;
+   font-size: 35px;
+    margin-left: -60px;
+}
 
+.creat-card .alohida{
+    margin-left: -15px;
 }
 
 .creat-card img{
@@ -124,10 +206,11 @@ body{
 
 .creat-card p{
     margin-top: 15px;
-    color: rgb(219, 137, 137);
+    color: white;
     width: 200px;
     text-align: center;
-    margin-left: -20px;
+    margin-left: -15px;
+    font-size: 18px;
 }
 
 
@@ -135,26 +218,30 @@ body{
     margin-top: 245px;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 150px;
 
 }
 
+
+
 .about-left img{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
+
 }
 
 .about-right h1{
-    width: 400px;
+    width: 500px;
     color: white;
-    font-size: 36px;
-    line-height:50px;
+    font-size: 54px;
+    line-height:70px;
+
 }
 
 .about-card p{
-    margin-top: 15px;
+    margin-top: 20px;
     width: 400px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 23px;
     color: white;
@@ -162,20 +249,21 @@ body{
 
 .service-top h1{
     color: white;
-    font-size: 36px;
+    font-size: 60px;
     list-style: none;
-    line-height: 43px;
-    width: 350px;
+    line-height: 63px;
+    width: 550px;
+
     text-align: center;
     margin: auto;
     padding-top: 100px;
 }
 
 .service-top p{
-    width: 300px;
+    width: 400px;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     margin:45px auto;
 }
 
@@ -194,8 +282,10 @@ body{
 }
 
 .service{
-    background-color: #241d6a;
-    height:1050px;
+    background-color: rgb(11,5,71);
+    background: linear-gradient(90deg, rgb(12,5,71) 0%, rgba(9,9,121,1) 35%, rgb(67,37,71) 100%);
+    height:1150px;
+    margin-top: 250px;
 }
 
 
@@ -212,8 +302,14 @@ body{
 
 }
 
+.mobile-right img{
+    border-radius: 25px;
+    height: 460px;
+    padding-top: 15px;
+}
+
 .mobile-left h1{
-    padding-top: 55px;
+    padding-top: 75px;
     color: white;
     line-height: 43px;
     font-size: 45px;
@@ -227,39 +323,53 @@ body{
     font-size: 18px;
 }
 
-.mobile-buttons{
-    margin-top: -200px;
+.mobile-buttons {
+    margin-top: -170px;
     margin-left: 160px;
 }
 
 .mobile-buttons button{
-    margin: 20px;
-    color: white;
-    width: 120px;
-    height: 50px;
+    width: 160px;
+    height: 70px;
     border-radius: 30px;
-    border: 1ox solid #120A8F;
+
+}
+
+.mobile-buttons .btn1{
+    background: transparent;
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(41,101,227);
+    border: 3px solid rgb(41,101,227);
+}
+
+.mobile-buttons .btn2{
+    background-color: rgb(41,101,227);
+    border: none;
+    font-size: 20px;
+    color: white;
 }
 
 .customers{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 250px;
 }
 
 .customers-r h1{
+    padding-top: 20px;
 color: #fff;
 font-weight: 700;
-font-size: 40px;
+font-size: 60px;
 line-height: 43px;
 }
 .customers-r p{
 color: #fff;
 font-weight: 400;
-font-size: 18px;
+font-size: 22px;
 line-height: 23px;
 width: 440px;
-margin-top: 25px;
+margin-top: 30px;
 }
 
 .customers-r .bottom p{
@@ -275,6 +385,12 @@ margin-top: 25px;
 
 
 
+/* customers qism tugadi */
+
+
+/* subscribe qism boshlandi */
+
+
 
 .newsletter-container {
     max-width: 1100px;
@@ -282,7 +398,7 @@ margin-top: 25px;
     margin: auto;
     margin-top: 200px;
     text-align: center;
-    background-color: #1a1a3f;
+    background-color: rgb(29, 29, 99);
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -290,15 +406,16 @@ margin-top: 25px;
   }
   
   .newsletter-title {
-    font-size: 34px;
+    font-size: 44px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    
   }
   
   .newsletter-text {
-    font-size: 18px;
+    font-size: 22px;
     color: #b0b0d5;
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   .newsletter-form {
@@ -310,33 +427,39 @@ margin-top: 25px;
   }
   
   .newsletter-input {
-    width: 400px;
-    padding: 10px;
+    background: transparent;
+    width: 300px;
+    padding: 12px;
     border: 2px solid #5050b5;
     border-radius: 20px;
     outline: none;
     font-size: 14px;
-    color: #333;
+    color: white;
   }
+
   
   .newsletter-button {
     background-color: #407bff;
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: 0.5s ease;
   }
   
   .newsletter-button:hover {
     background-color: #2a5fd9;
   }
 
+/* subscribe qism tugadi */
+
+
+  /* footer qism boshlandi */
+
 .footer {
-    background-color: #120A8F;
     padding: 50px 20px;
     display: flex;
     justify-content: space-between;
@@ -345,37 +468,46 @@ margin-top: 25px;
 
 .footer-section {
     flex: 1;
-    margin-right: 20px;
+    margin-left: 120px;
 }
 
-.footer-section h4 {
-    margin-bottom: 20px;
+.footer-section h3 {
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
+}
+.footer-section h4 {
+    color: #fff;
+    font-size: 25px;
+}
+.footer-section h3 {
+    color: #fff;
+    font-size: 25px;
 }
 .footer-section p {
+    margin-top: 30px;
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
+    width: 250px;
 }
 
 .footer-section ul {
+    margin-top: 25px;
     list-style: none;
     padding: 0;
 }
 
 .footer-section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 14px;
+    width: 207px;
+    font-size: 16px;
 }
 
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    transition-duration: 1s;
 }
 
-.footer-section ul li a:hover {
-    text-decoration: underline;
-}
 
 .social-icons {
     margin-top: 25px;
@@ -384,25 +516,35 @@ margin-top: 25px;
 }
 
 .social-icons a {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: #5B42F3;
     border-radius: 50%;
     color: #fff;
     font-size: 16px;
     text-decoration: none;
+    transition-duration: 1s;
+    margin-top: 13px;
 }
 
 .social-icons a:hover {
-    background-color: #555;
+    background-color: white;
+    color: black;
 }
 
-.footer-bottom {
+.footer-bottom{
+    background-color: rgb(17,17,37);
+    height: 50px;
+}
+
+.footer-bottom p{
     text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
+    padding-top: 15px;
+    font-size: 18px;
     color: #ccc;
 }
+
+  /* footer qism tugadi */
