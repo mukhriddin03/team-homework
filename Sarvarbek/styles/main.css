@@ -1,9 +1,11 @@
 .head {
-  background-color: deepskyblue;
-  background: linear-gradient(180deg, #1675e0, #ddd9d9);
   height: 1000px;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/bacround.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #F3F4F9;
 }
 .new-btn {
   background-color: rgb(164, 224, 43);
@@ -38,8 +40,7 @@
 }
 .right-info img {
   margin-top: 60px;
-  width: 700px;
-  height: 750px;
+  height: 850px; 
 }
 .icons {
   height: 600px;
@@ -73,9 +74,9 @@
 }
 .pay {
   display: flex;
-  gap: 200px;
+  gap: 160px;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 180px;
 }
 .pay img {
   border-radius: 20px;
@@ -86,6 +87,7 @@
   flex-direction: column;
   gap: 15px;
   font-size: 30px;
+  white-space: inherit;
 }
 .customer {
   padding-top: 120px;
@@ -95,7 +97,7 @@
   display: flex;
   flex-direction: column;
   height: 500px;
-  background-color: rgb(221, 221, 221);
+  background-color: #F4F5FA;
 }
 .card-info {
   padding-top: 70px;
@@ -123,10 +125,10 @@
   padding-top: 140px;
 }
 .form-1-btn {
-  background-color: rgb(225, 228, 233);
+  background-color: #F0F7FD;
   border: none;
   border-radius: 10px;
-  height: 40px;
+  height: 50px;
   width: 150px;
   color: rgb(0, 153, 255);
   font-size: 18px;
@@ -135,10 +137,10 @@
   padding-top: 80px;
 }
 .form-2-btn {
-  background-color: rgb(0, 119, 255);
+  background-color: #3EAAF5;
   border: none;
   border-radius: 10px;
-  height: 40px;
+  height: 50px;
   width: 150px;
   color: white;
   font-size: 18px;
@@ -159,17 +161,17 @@
   background-color: white;
   border: none;
   border-radius: 10px;
-  height: 40px;
+  height: 50px;
   width: 150px;
   color: dodgerblue;
-  font-size: 18px;
+  font-size: 20px;
 }
 .bottom-end {
   display: flex;
   justify-content: center;
   gap: 200px;
   padding-top: 50px;
-  background-color: lightgray;
+  background-color:#F3F4F9;
 }
 .uzun-telefon img {
   border-radius: 45px 45px 0 0;
@@ -183,10 +185,10 @@
   width: 35px;
 }
 .child2 {
-  padding-top: 90px;
+  padding-top: 110px;
 }
 .child4 {
-  padding-top: 100px;
+  padding-top: 110px;
 }
 .child6 {
   padding-top: 110px;
@@ -197,13 +199,36 @@
 .foot {
   display: flex;
   justify-content: space-evenly;
+  height: 500px;
+  padding-top: 100px;
 }
 .blue-text {
   color: dodgerblue;
 }
 .list-text {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .list.pd {
   padding-top: 20px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.list-th{
+  padding-top: 30px;
+}
+.state{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+.state-p{
+  display: flex;
+  gap: 30px;
+  
 }
