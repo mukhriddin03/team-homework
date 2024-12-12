@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .header-p{
   color:aliceblue;
   font-size: 23px;
@@ -41,9 +49,6 @@ width: 1200px;
 margin-left: auto;
 margin-right: auto;
 }
-
-
-
 .content {
   max-width: 48rem;
 }
@@ -65,7 +70,7 @@ margin-right: auto;
   color: #cbd5e1;
   font-size: 1.125rem;
   line-height: 1.7;
-  max-width: 380px;
+  width: 380px;
 }
 .title{
   width: 300px;
@@ -90,6 +95,7 @@ margin-right: auto;
 .button-group {
   display: flex;
   gap: 12px;
+  margin-top: 40px;
 }
 
 .button {
@@ -144,10 +150,11 @@ margin-right: auto;
 .katta-div{
   background: linear-gradient(135deg, #1a2e35 0%, #0f2027 100%);
   height: 720px;
+  width: 100%;
 }
 .section_img{
   position: relative;
-  top: -500px;
+  top: -490px;
   left: 540px;
   width: 650px;
   height: 610px;
@@ -159,7 +166,7 @@ margin-right: auto;
 }
 .main_h1{
   position: relative;
-  top: -500px;
+  top: -390px;
   font-family: sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -170,8 +177,8 @@ margin-right: auto;
   font-weight: 500;
   font-family: sans-serif;
   position: relative;
-  top: -580px;
-  left: 830px;
+  top: -500px;
+  left: 700px;
 }
 .card-container {
   display: flex;
@@ -187,6 +194,7 @@ margin-right: auto;
   text-align: center;
   width: 300px;
   padding: 20px;
+  margin-top: 100px;
 }
 
 .card-image {
@@ -207,6 +215,7 @@ margin-right: auto;
   color: #666;
   font-size: 14px;
   margin-bottom: 20px;
+  font-family: sans-serif;
 }
 
 .learn-more {
@@ -222,7 +231,7 @@ margin-right: auto;
 }
 .stats-container {
   display: flex;
-  gap: 187px;
+  gap: 195px;
   position: relative;
   top: -400px;
 }
@@ -287,7 +296,7 @@ margin-right: auto;
   width: 250px;
   position: relative;
   top: -300px;
-word-spacing: 20px;
+word-spacing: 17px;
 }
 .home_main-section-p{
   font-family: sans-serif;
@@ -304,7 +313,7 @@ word-spacing: 20px;
   width: 320px;
   position: relative;
   top: -370px;
-  left: 940px;
+  left: 840px;
   color: #007bff;
 }
 
@@ -313,7 +322,7 @@ word-spacing: 20px;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
-  max-width: 1200px;
+  width: 1200px;
   position: relative;
   top: -300px;
 }
@@ -368,10 +377,13 @@ p {
 }
 
 .pastki-main_img{
-  width: 1330px;
+  width: 1050px;
   height: 500px;
-  margin: -200px 0 0 0;
+  margin: -200px 0 100px 100px;
+ 
+  
 }
+
 .home-discription_h1{
   font-size: 30px;
   font-weight: 600;
@@ -380,7 +392,7 @@ p {
   width: 200px;
 text-align: center;
 position: relative;
-left: 550px;
+left: 450px;
 }
 .home-discription_p{
   font-size: 18px;
@@ -390,7 +402,7 @@ left: 550px;
   width: 450px;
 text-align: center;
 position: relative;
-left: 450px;
+left: 340px;
 }
 
 .home-section_img1{
@@ -535,7 +547,7 @@ left: 270px;
 }
 .div-1{
   background-color: #333;
-  width: 1440px;
+  width:100%;
   height: 470px;
 position: relative;
 top: 70px;
