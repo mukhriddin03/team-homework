@@ -13,10 +13,10 @@ header div{
     
 }
 .download-btn{
-  background-color: rgb(34, 34, 190);
+  background-color:  #3EAAF5;
   border:none ;
   border-radius:  10px ;
-  height: 40px;
+  height: 50px;
   width: 150px;
   color: white;
   font-size: 15px;
