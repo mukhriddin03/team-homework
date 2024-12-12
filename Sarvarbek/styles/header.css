@@ -1,0 +1,24 @@
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    
+    
+}
+.download-btn{
+  background-color:  #3EAAF5;
+  border:none ;
+  border-radius:  10px ;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 15px;
+  
+}
