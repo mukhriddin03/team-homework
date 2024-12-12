@@ -231,7 +231,7 @@ margin-right: auto;
 }
 .stats-container {
   display: flex;
-  gap: 187px;
+  gap: 195px;
   position: relative;
   top: -400px;
 }
@@ -296,7 +296,7 @@ margin-right: auto;
   width: 250px;
   position: relative;
   top: -300px;
-word-spacing: 20px;
+word-spacing: 17px;
 }
 .home_main-section-p{
   font-family: sans-serif;
@@ -313,7 +313,7 @@ word-spacing: 20px;
   width: 320px;
   position: relative;
   top: -370px;
-  left: 940px;
+  left: 840px;
   color: #007bff;
 }
 
@@ -377,9 +377,11 @@ p {
 }
 
 .pastki-main_img{
-  width: 100%;
+  width: 1050px;
   height: 500px;
-  margin: -200px 0 0 0;
+  margin: -200px 0 100px 100px;
+ 
+  
 }
 
 .home-discription_h1{
