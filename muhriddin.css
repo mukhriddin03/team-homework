@@ -121,8 +121,8 @@ nav .nav-register .sign-up:hover {
     cursor: pointer;
 }
 
-.site-item__img-box {
-    width: 60px;
+.other-sites .site-item .site-item__img-box {
+    min-width: 60px;
     height: 60px;
     background-color: rgb(250, 187, 227);
     border-radius: 50%;
@@ -132,7 +132,7 @@ nav .nav-register .sign-up:hover {
 }
 
 .site-item__img-box img {
-    width: 45px;
+    width: 30px;
 }
 
 .site-item__text {
@@ -200,7 +200,7 @@ nav .nav-register .sign-up:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    min-width: 60px;
     height: 60px;
     border-radius: 50%;
 }
