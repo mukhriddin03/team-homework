@@ -18,3 +18,14 @@ ul {
 h5 {
   color: dodgerblue;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+hr{
+
+  width: 1500px;
+  height: 1px;
+  margin: auto;
+   margin-bottom: 50px;
+}
