@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000A34;
+
+}
+
+
+.navbar-list{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar-list-item{
+    list-style: none;
+
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.navbar .logo{
+    padding-top: 25px;
+    display: flex;
+    gap: 915px;
+    justify-content: space-around;
+}
+
+.logo h1{
+    color: white;
+    font-size: 26px;
+}
+
+.logo button{
+    width: 110px;
+    border-radius: 30px;
+    border: 2px solid white;
+    height: 50px;
+    background: transparent;
+    color: white;
+}
+
+.stronger{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bank-card img{
+    width: 400px;
+    height: 400;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.bank-text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    width: 600px;
+    line-height: 80px;
+
+
+}
+
+.bank-text p{
+    margin-top: 25px;
+    width: 400px;
+    line-height: 23px;
+    font-size: 18px;
+    color: white;
+}
+
+.buttons{
+    margin-top: 25px;
+
+}
+
+.buttons .btn1{
+    margin: 45px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;    
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.buttons .btn2{
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.creats{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creat-card h3{
+   color: white;
+   margin-top: 15px;
+
+}
+
+.creat-card img{
+    border-radius: 15px;
+    margin-left: -20px;
+}
+
+.creat-card p{
+    margin-top: 15px;
+    color: rgb(219, 137, 137);
+    width: 200px;
+    text-align: center;
+    margin-left: -20px;
+}
+
+
+.about-card{
+    margin-top: 245px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.about-left img{
+    width: 400px;
+    height: 400px;
+}
+
+.about-right h1{
+    width: 400px;
+    color: white;
+    font-size: 36px;
+    line-height:50px;
+}
+
+.about-card p{
+    margin-top: 15px;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+}
+
+.service-top h1{
+    color: white;
+    font-size: 36px;
+    list-style: none;
+    line-height: 43px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.service-top p{
+    width: 300px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin:45px auto;
+}
+
+.service-wrapper{
+    width: 1200px;
+    display: flex;
+    gap: 130px;
+    flex-wrap: wrap;
+    margin:  auto;
+    padding-left: 60px;
+}
+
+.services-card{
+    width: 250px;
+    height: 250px;
+}
+
+.service{
+    background-color: #241d6a;
+    height:1050px;
+}
+
+
+.mobile{
+    height: 475px;
+    max-width: 1300px;
+    margin: 120px auto;
+    background-color: #241d6a;
+}
+
+.mobile-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.mobile-left h1{
+    padding-top: 55px;
+    color: white;
+    line-height: 43px;
+    font-size: 45px;
+    width: 520px;
+}
+.mobile-left p{
+    padding-top: 30px;
+    color: white;
+    line-height: 23px;
+    width: 370px;
+    font-size: 18px;
+}
+
+.mobile-buttons{
+    margin-top: -200px;
+    margin-left: 160px;
+}
+
+.mobile-buttons button{
+    margin: 20px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1ox solid #120A8F;
+}
+
+.customers{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.customers-r h1{
+color: #fff;
+font-weight: 700;
+font-size: 40px;
+line-height: 43px;
+}
+.customers-r p{
+color: #fff;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+width: 440px;
+margin-top: 25px;
+}
+
+.customers-r .bottom p{
+    margin-top: 80px;
+}
+.customers-r .bottom h2{
+    margin-top: 60px;
+    color: white;
+
+}
+
+
+
+
+
+
+.newsletter-container {
+    max-width: 1100px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    background-color: #1a1a3f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .newsletter-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-text {
+    font-size: 18px;
+    color: #b0b0d5;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-input {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #5050b5;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .newsletter-button {
+    background-color: #407bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #2a5fd9;
+  }
+
+.footer {
+    background-color: #120A8F;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-section p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
