@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12,5,71);
+
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 300px;
+        
+}
+
+
+.navbar-list{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar-list-item{
+    list-style: none;
+
+}
+
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    transition-duration: 0.8s;
+
+}
+
+.navbar-link:hover{
+color: yellow;
+}
+
+.navbar .logo{
+    padding-top: 25px;
+    display: flex;
+    gap: 915px;
+    justify-content: space-around;
+}
+
+.logo h1{
+    color: white;
+    font-size: 36px;
+}
+
+.logo button{
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    height: 50px;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    transition-duration: 1s;
+}
+
+.logo button:hover{
+    background-color: rgb(81, 90, 219);
+    border: none;
+}
+
+.stronger{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bank-card img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.bank-text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    width: 600px;
+    line-height: 80px;
+
+
+}
+
+.bank-text p{
+    margin-top: 25px;
+    width: 400px;
+    line-height: 23px;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons{
+    margin-top: 35px;
+    display: flex;
+    gap: 45px;
+
+}
+
+.buttons .btn1{ 
+      align-items: center;
+      background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+      border: 0;
+      border-radius: 8px;
+      box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      display: flex;
+      font-family: Phantomsans, sans-serif;
+      font-size: 20px;
+      justify-content: center;
+      line-height: 1em;
+      max-width: 100%;
+      min-width: 140px;
+      padding: 19px 24px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .button-63:active,
+    .button-63:hover {
+      outline: 0;
+    }
+    
+    @media (min-width: 768px) {
+      .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+      }
+    }
+
+
+.buttons .btn2{
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+
+.creats{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creat-card h3{
+   color: white;
+   margin-top: 15px;
+   font-size: 35px;
+    margin-left: -60px;
+}
+
+.creat-card .alohida{
+    margin-left: -15px;
+}
+
+.creat-card img{
+    border-radius: 15px;
+    margin-left: -20px;
+}
+
+.creat-card p{
+    margin-top: 15px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-left: -15px;
+    font-size: 18px;
+}
+
+
+.about-card{
+    margin-top: 245px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+}
+
+
+
+.about-left img{
+    width: 600px;
+    height: 500px;
+
+}
+
+.about-right h1{
+    width: 500px;
+    color: white;
+    font-size: 54px;
+    line-height:70px;
+
+}
+
+.about-card p{
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: white;
+}
+
+.service-top h1{
+    color: white;
+    font-size: 60px;
+    list-style: none;
+    line-height: 63px;
+    width: 550px;
+
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.service-top p{
+    width: 400px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin:45px auto;
+}
+
+.service-wrapper{
+    width: 1200px;
+    display: flex;
+    gap: 130px;
+    flex-wrap: wrap;
+    margin:  auto;
+    padding-left: 60px;
+}
+
+.services-card{
+    width: 250px;
+    height: 250px;
+}
+
+.service{
+    background-color: rgb(11,5,71);
+    background: linear-gradient(90deg, rgb(12,5,71) 0%, rgba(9,9,121,1) 35%, rgb(67,37,71) 100%);
+    height:1150px;
+    margin-top: 250px;
+}
+
+
+.mobile{
+    height: 475px;
+    max-width: 1300px;
+    margin: 120px auto;
+    background-color: #241d6a;
+}
+
+.mobile-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.mobile-right img{
+    border-radius: 25px;
+    height: 460px;
+    padding-top: 15px;
+}
+
+.mobile-left h1{
+    padding-top: 75px;
+    color: white;
+    line-height: 43px;
+    font-size: 45px;
+    width: 520px;
+}
+.mobile-left p{
+    padding-top: 30px;
+    color: white;
+    line-height: 23px;
+    width: 370px;
+    font-size: 18px;
+}
+
+.mobile-buttons {
+    margin-top: -170px;
+    margin-left: 160px;
+}
+
+.mobile-buttons button{
+    width: 160px;
+    height: 70px;
+    border-radius: 30px;
+
+}
+
+.mobile-buttons .btn1{
+    background: transparent;
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(41,101,227);
+    border: 3px solid rgb(41,101,227);
+}
+
+.mobile-buttons .btn2{
+    background-color: rgb(41,101,227);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.customers{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.customers-r h1{
+    padding-top: 20px;
+color: #fff;
+font-weight: 700;
+font-size: 60px;
+line-height: 43px;
+}
+.customers-r p{
+color: #fff;
+font-weight: 400;
+font-size: 22px;
+line-height: 23px;
+width: 440px;
+margin-top: 30px;
+}
+
+.customers-r .bottom p{
+    margin-top: 80px;
+}
+.customers-r .bottom h2{
+    margin-top: 60px;
+    color: white;
+
+}
+
+
+
+
+
+/* customers qism tugadi */
+
+
+/* subscribe qism boshlandi */
+
+
+
+.newsletter-container {
+    max-width: 1100px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    background-color: rgb(29, 29, 99);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .newsletter-title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+  }
+  
+  .newsletter-text {
+    font-size: 22px;
+    color: #b0b0d5;
+    margin-top: 20px;
+  }
+  
+  .newsletter-form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter-input {
+    background: transparent;
+    width: 300px;
+    padding: 12px;
+    border: 2px solid #5050b5;
+    border-radius: 20px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+  }
+
+  
+  .newsletter-button {
+    background-color: #407bff;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s ease;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #2a5fd9;
+  }
+
+/* subscribe qism tugadi */
+
+
+  /* footer qism boshlandi */
+
+.footer {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    margin-left: 120px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.footer-section h4 {
+    color: #fff;
+    font-size: 25px;
+}
+.footer-section h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.footer-section p {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 17px;
+    width: 250px;
+}
+
+.footer-section ul {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 14px;
+    width: 207px;
+    font-size: 16px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+
+.social-icons {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B42F3;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition-duration: 1s;
+    margin-top: 13px;
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-bottom{
+    background-color: rgb(17,17,37);
+    height: 50px;
+}
+
+.footer-bottom p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+  /* footer qism tugadi */
