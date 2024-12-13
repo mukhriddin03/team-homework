@@ -6,6 +6,7 @@
   border: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .header-p{
   color:aliceblue;
   font-size: 23px;
@@ -43,6 +44,24 @@ padding: 8px 25px;
   text-align: center;
 
   border-radius: 50px;
+}
+.header-p3:hover{
+  cursor: pointer;
+   color:blue;
+ }
+.header-p2:hover{
+  cursor: pointer;
+   color:blue;
+ }
+.header-p:hover{
+ cursor: pointer;
+  color:blue;
+}
+.header-p4:hover{
+  background-color: blue;
+  color: white;
+  box-shadow: rgba(139, 219, 11, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
 }
 .container {
 width: 1200px;
@@ -126,6 +145,8 @@ margin-right: auto;
 .button:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-1px);
+  background-color: lightgreen;
+  cursor: pointer;
 }
 
 .icon {
@@ -201,6 +222,10 @@ margin-right: auto;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 20px;
+  object-fit: cover;
+}
+.app{
+  object-fit: cover;
 }
 
 .card h3 {
@@ -227,7 +252,13 @@ margin-right: auto;
 }
 
 .learn-more:hover {
-  text-decoration: underline;
+ color: red;
+  transform: translateY(-1px);
+ cursor: pointer;
+}
+.home_main-section-p2:hover{
+  color: lawngreen;
+  cursor: pointer;
 }
 .stats-container {
   display: flex;
@@ -263,6 +294,7 @@ margin-right: auto;
   border-color: rgba(0, 123, 255, 0.3);
   transform: scale(1.05);
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .stat-item:nth-child(1) .shape {
@@ -342,6 +374,7 @@ word-spacing: 17px;
 .feature-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .icon-container {
@@ -380,8 +413,7 @@ p {
   width: 1050px;
   height: 500px;
   margin: -200px 0 100px 100px;
- 
-  
+ object-fit: cover;
 }
 
 .home-discription_h1{
@@ -410,6 +442,8 @@ top: 10px;
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  object-fit: cover;
+ 
 }
 .server-p{
   font-size: 18px;
@@ -531,6 +565,10 @@ top: 35px;
   font-weight: 500;
   color: #666;
   line-height: 1px;
+}
+.footer-p:hover{
+  color: #2dd4bf;
+  cursor: pointer;
 }
 .home-eng_pastki{
   display: flex;
