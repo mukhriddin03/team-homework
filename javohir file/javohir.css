@@ -403,6 +403,7 @@ left: 450px;
 text-align: center;
 position: relative;
 left: 340px;
+top: 10px;
 }
 
 .home-section_img1{
@@ -412,7 +413,7 @@ left: 340px;
 }
 .server-p{
   font-size: 18px;
-  margin: -15px 0 0 27px;
+  margin: 0 0 0 27px;
 }
 .server_p{
   font-size: 18px;
@@ -427,7 +428,8 @@ top: -30px;
 }
 .home-section_2{
   display: flex;
-  gap: 77px;
+  gap: 57px;
+  margin-top: 35px;
 }
 .pastki-a{
   color: black;
@@ -444,7 +446,8 @@ top: -30px;
   font-size: 33px;
   font-weight: 600;
   font-family: sans-serif;
-
+position: relative;
+top: 35px;
 }
 .content_p{
   font-size: 18px;
@@ -453,8 +456,8 @@ top: -30px;
   color: #666;
   width: 490px;
   position: relative;
-  top: -20px;
-  left: -70px;
+  top: 5px;
+  left: -120px;
 }
 .kichikroq-div1{
   display: flex;
@@ -546,7 +549,7 @@ top: 100px;
 left: 270px;
 }
 .div-1{
-  background-color: #333;
+  background-color: #1F1F26;
   width:100%;
   height: 470px;
 position: relative;
@@ -555,4 +558,10 @@ top: 70px;
 .footer-div2{
   position: relative;
   top: 60px;
+}
+.footer_h3{
+  color: white;
+}
+.footer-h1{
+  color: white;
 }
