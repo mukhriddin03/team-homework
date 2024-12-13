@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.header_container {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+.nav_container {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: rgb(88, 175, 241);
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+.container {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-left: 150px;
+
+}
+
+.section2 .img {
+
+    width: 50%;
+    height: 80%;
+}
+
+#h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#p {
+    font-size: 16px;
+    color: grey;
+}
+
+.input_section {
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+
+}
+
+.input_box {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 200px;
+    outline: none;
+}
+
+.input_button {
+    color: white;
+    background-color: rgb(88, 175, 241);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+
+
+}
+
+.food_heaad {
+    text-align: center;
+}
+
+.food_heaad p {
+    margin-top: 10px;
+    color: gray;
+}
+
+.courier_map {
+    text-align: center;
+}
+
+.food_menu {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.food_menu img {
+    width: 90px;
+    height: 90px;
+
+}
+
+.food_menu button {
+    width: 170px;
+    height: 200px;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   button {
+    background-color: rgb(195, 247, 252);
+   
+   }
+   
+   button:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgb(0, 17, 255) 0%, rgba(2,126,251,1) 100%);
+   }
