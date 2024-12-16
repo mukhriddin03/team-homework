@@ -673,3 +673,145 @@ button:hover {
   padding: 12px 24px;
   border-radius: 30px;
 }
+/* footer */
+
+.newsletter {
+  background: #6366f1;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dot-yellow {
+  background: #fbbf24;
+  top: 20%;
+  left: 15%;
+}
+
+.dot-blue {
+  background: #60a5fa;
+  bottom: 20%;
+  right: 15%;
+}
+
+.newsletter h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.subscribe-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  padding: 0 20px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-form button {
+  background: #FF7D64;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.subscribe-form button:hover {
+  background: #ff6b4f;
+}
+
+.footer {
+  background: #1e1b4b;
+  color: white;
+  padding: 60px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr);
+  gap: 40px;
+}
+
+.brand h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.footer-links h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
